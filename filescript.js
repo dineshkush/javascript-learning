@@ -312,9 +312,20 @@
 
 
 
+let num = 100;
+let total = 0;
+// let i = 0;
 
-const BIRTHDAY = '18.04.1982'; // make birthday uppercase?
+// while(i<=num) {
+//     total = total + i;
+//     i++
+// }
 
-const AGE = someCode(BIRTHDAY); // make age uppercase?
+// console.log(total);
 
-alert(AGE);
+for(let i = 0; i<=num; i++){
+    total = total + i;
+}
+
+
+console.log(total)
